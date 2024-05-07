@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 # Replace 'path_to_your_data.csv' with the actual path to your data file
-path = "C:/Users/henry/pythonProject/"
+path = ""
 df_pubs=pd.read_csv(path+"open_pubs_10000_sample.csv")
 df_pubs['latitude'] = pd.to_numeric(df_pubs['latitude'], errors='coerce')   # converting data to numeric type
 df_pubs['longitude'] = pd.to_numeric(df_pubs['longitude'], errors='coerce') # converting data to numeric type
