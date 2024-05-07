@@ -7,7 +7,7 @@ import numpy as np
 import seaborn as sns
 
 
-path = "C:/Users/henry/pythonProject/"
+path = ""
 # Load data
 df_pubs = pd.read_csv(path + "open_pubs_10000_sample.csv")
 st.set_option('deprecation.showPyplotGlobalUse', False)
