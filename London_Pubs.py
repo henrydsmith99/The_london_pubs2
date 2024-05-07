@@ -12,7 +12,7 @@ import pandas as pd
 import numpy as np
 
 
-path = "C:/Users/henry/pythonProject/"
+path = ""
 
 df_pubs = pd.read_csv(path + "open_pubs_10000_sample.csv")
 
